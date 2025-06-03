@@ -50,8 +50,8 @@
     width: auto;
     height: 300px;
     display: block;
-    margin: 0px auto;
-    max-width: 80%;
+    margin: 0 0 0 70px;
+    max-width: 500px;
     border-radius: 10px;
     border-color: rgb(33, 17, 124);
     border-width: 3px;
