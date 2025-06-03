@@ -1,0 +1,36 @@
+.main-menu>img {
+    height: 60px;
+}
+.main-menu>ul {
+    background-color: rgb(33, 17, 124);
+    margin-left: 240px;
+    margin-top: -70px;
+}
+.main-menu>ul>li{
+    display: table-cell;
+    padding: 0 100px 0 0;
+    width: auto;
+    height: 70px;
+    vertical-align: middle;
+    text-align: center;
+}
+.main-menu>ul>li>a {
+    width: auto;
+    height: 70px;
+    color: white;
+    font-size: 120%;
+    text-decoration: none;
+}
+.main-menu>ul>li>a:hover {
+    width: auto;
+    height: 70px;
+    color: black;
+    background-color: rgb(169, 162, 224);
+}
+.menu-button {
+    width: 60px;
+    height: 100%;
+}
+.showcase>img {
+    max-width: 100%;
+}
