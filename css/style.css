@@ -1,29 +1,37 @@
+.top {
+    height: 50px
+}
 .main-menu>img {
+    display: table-cell;
+    margin: 15px 0 0 30px;
     height: 60px;
+    vertical-align: middle;
 }
 .main-menu>ul {
     background-color: rgb(33, 17, 124);
-    margin-left: 240px;
-    margin-top: -70px;
+    margin: -75px 0 30px 270px;
+    width: auto;
+    height: 80px;
 }
 .main-menu>ul>li{
     display: table-cell;
-    padding: 0 100px 0 0;
-    width: auto;
-    height: 70px;
+    width: 130px;
     vertical-align: middle;
     text-align: center;
 }
 .main-menu>ul>li>a {
-    width: auto;
-    height: 70px;
+    display: table-cell;
+    width: 130px;
+    height: 80px;
     color: white;
     font-size: 120%;
     text-decoration: none;
+    vertical-align: middle;
+    /* padding: 0 40px; */
 }
 .main-menu>ul>li>a:hover {
-    width: auto;
-    height: 70px;
+    display: table-cell;
+    width: 130px;
     color: black;
     background-color: rgb(169, 162, 224);
 }
@@ -31,6 +39,43 @@
     width: 60px;
     height: 100%;
 }
-.showcase>img {
-    max-width: 100%;
+#artwork {
+    margin-left: 70px
+}
+.showcase {
+    margin-bottom: 60px;
+}
+.showcase a{
+    text-decoration: none;
+    width: auto;
+    height: 300px;
+    display: block;
+    margin: 0px auto;
+    max-width: 80%;
+    border-radius: 10px;
+    border-color: rgb(33, 17, 124);
+    border-width: 3px;
+    border-style: solid;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(4, 4, 96, 0.716)),
+url('../img/2050V5Guangzhou.png') center/cover no-repeat;
+}
+.showcase>a>h3 {
+    display: block;
+    text-align: left;
+    margin: 260px 0 0 20px;
+    color: white;
+    text-decoration: none;
+
+}
+.showcase>a:hover {
+    border-color: rgb(169, 162, 224);
+    border-width: 3px;
+    outline: 3px solid rgb(169, 162, 224);
+}
+.showcase>a:hover h3 {
+    color: rgb(169, 162, 224);
+}
+.footer>ul>li{
+    display: table-cell;
+    padding: 0 10px;
 }
