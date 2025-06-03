@@ -32,7 +32,6 @@
     font-size: 120%;
     text-decoration: none;
     vertical-align: middle;
-    /* padding: 0 40px; */
 }
 .navbar>ul>li>a:hover {
     display: table-cell;
