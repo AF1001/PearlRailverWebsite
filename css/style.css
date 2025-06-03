@@ -1,25 +1,30 @@
 .top {
     height: 50px
 }
-.main-menu>img {
+.navbar>#logo {
     display: table-cell;
     margin: 15px 0 0 30px;
     height: 60px;
     vertical-align: middle;
 }
-.main-menu>ul {
+.navbar>#deco {
+    display: table-cell;
+    margin: -75px 0 0 260px;
+    height: 80px;
+}
+.navbar>ul {
     background-color: rgb(33, 17, 124);
-    margin: -75px 0 30px 270px;
+    margin: -80px 0 30px 370px;
     width: auto;
     height: 80px;
 }
-.main-menu>ul>li{
+.navbar>ul>li{
     display: table-cell;
     width: 130px;
     vertical-align: middle;
     text-align: center;
 }
-.main-menu>ul>li>a {
+.navbar>ul>li>a {
     display: table-cell;
     width: 130px;
     height: 80px;
@@ -29,16 +34,13 @@
     vertical-align: middle;
     /* padding: 0 40px; */
 }
-.main-menu>ul>li>a:hover {
+.navbar>ul>li>a:hover {
     display: table-cell;
     width: 130px;
     color: black;
     background-color: rgb(169, 162, 224);
 }
-.menu-button {
-    width: 60px;
-    height: 100%;
-}
+
 #artwork {
     margin-left: 70px
 }
